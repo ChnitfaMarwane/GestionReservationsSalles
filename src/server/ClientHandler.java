@@ -25,7 +25,7 @@ public class ClientHandler implements Runnable {
                 out.flush();
             }
         } catch (EOFException e) {
-            System.out.println("Client déconnecté.");
+            ReservationServer.log("Client déconnecté : " + socket.getRemoteSocketAddress());
         } catch (Exception e) {
             System.err.println("Erreur client : " + e.getMessage());
         }
