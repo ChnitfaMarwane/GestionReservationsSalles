@@ -1,0 +1,3 @@
+ID,IdUtilisateur,IdSalle,Date,HeureDebut,HeureFin,Motif,Statut
+2,1,2,2026-12-05,09:00,12:00,"Cours Java",CONFIRMEE
+1,1,1,2026-12-01,09:00,11:00,"Cours Java",CONFIRMEE

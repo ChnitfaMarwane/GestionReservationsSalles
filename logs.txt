@@ -1,0 +1,8 @@
+[2026-11-27 12:00:26] User: admin@uca.ma | Op: LOGIN | Result: SUCCES
+[2026-11-27 12:10:09] User: admin@uca.ma | Op: LOGIN | Result: ERREUR: No suitable driver found for jdbc:sqlite:ReservationDB.db
+[2026-11-27 12:10:29] User: admin@uca.ma | Op: LOGIN | Result: ERREUR: No suitable driver found for jdbc:sqlite:ReservationDB.db
+[2026-11-27 12:10:59] User: admin@uca.ma | Op: LOGIN | Result: ERREUR: No suitable driver found for jdbc:sqlite:ReservationDB.db
+[2026-11-27 12:11:30] User: admin@uca.ma | Op: LOGIN | Result: SUCCES
+[2026-11-27 12:11:45] User: admin@uca.ma | Op: LOGIN | Result: SUCCES
+[2026-11-27 12:24:04] User: admin@uca.ma | Op: ADD_RESERVATION | Result: SUCCES
+[2026-11-27 12:24:19] User: admin@uca.ma | Op: ADD_RESERVATION | Result: SUCCES
