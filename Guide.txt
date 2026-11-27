@@ -1,0 +1,62 @@
+Guide d'execution - Gestion des Reservations de Salles
+
+
+
+Les fichiers JAR sont deja generes et prets a l'emploi. La base de donnees SQLite (ReservationDB.db) est initialisee automatiquement, sans mot de passe.
+
+
+
+1. Execution (respecter cet ordre)
+
+
+
+Etape 1 : Lancer le serveur en premier (Terminal 1)
+
+Sur Winows : 
+
+java -cp "Serveur.jar;lib/*" server.ReservationServer
+
+Sur Mac :
+
+java -cp "Serveur.jar:lib/*" server.ReservationServer
+
+
+Etape 2 : Lancer le client en deuxieme (Terminal 2)
+
+java -jar Client.jar
+
+
+
+Pour tester plusieurs utilisateurs en meme temps, lancez java -jar Client.jar dans plusieurs terminaux.
+
+
+
+2. Connexion et reservations
+
+
+
+Une fois l'interface ouverte, saisissez un email et un mot de passe parmi les comptes ci-dessous pour vous connecter et commencer vos reservations :
+
+
+
+Administrateur (tableau de bord, reservations et gestion des salles) :
+
+Email : admin@uca.ma
+
+Mot de passe : admin123
+
+
+
+Utilisateur 1 (tableau de bord et reservations) :
+
+Email : user1@uca.ma
+
+Mot de passe : 1234
+
+
+
+Utilisateur 2 (tableau de bord et reservations) :
+
+Email : user2@uca.ma
+
+Mot de passe : 1234
