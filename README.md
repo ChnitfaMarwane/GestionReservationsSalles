@@ -20,8 +20,13 @@ Les fichiers JAR sont déjà générés et prêts à l'emploi. La base de donné
 
 ### Étape 1 : Lancer le serveur en premier (Terminal 1)
 
+Sur Windows :
 ```bash
-java -jar Serveur.jar
+java -cp "Serveur.jar;lib/*" server.ReservationServer
+```
+Sur Mac : 
+```bash
+java -cp "Serveur.jar:lib/*" server.ReservationServer
 ```
 
 ### Étape 2 : Lancer le client en deuxième (Terminal 2)
