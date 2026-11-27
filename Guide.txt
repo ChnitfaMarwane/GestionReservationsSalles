@@ -12,13 +12,7 @@ Les fichiers JAR sont deja generes et prets a l'emploi. La base de donnees SQLit
 
 Etape 1 : Lancer le serveur en premier (Terminal 1)
 
-Sur Winows : 
-
-java -cp "Serveur.jar;lib/*" server.ReservationServer
-
-Sur Mac :
-
-java -cp "Serveur.jar:lib/*" server.ReservationServer
+java -jar Serveur.jar
 
 
 Etape 2 : Lancer le client en deuxieme (Terminal 2)
